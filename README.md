@@ -1,11 +1,13 @@
 The Dog asset built for Carla simulation 0.9.15
 Add Dog folder into the exact path Carla-0-9-15/CarlaUE4/Content/Carla/Static/Static/
 And modify the file Carla-0-9-15/CarlaUE4/Content/Carla/Config/Default.Package.json and add the dog prop:
- {
+ ```json
+       {
 			"name": "Dog",
 			"path": "/Game/Carla/Static/Static/Dog/source_dog_node_id126",
 			"size": "Medium"
 		},
+```
 
 test the props in Carla PythonAPI "static.prop.dog"
 ```py
